@@ -8,7 +8,7 @@ public class DBConnection {
     private DBConnection(){
         String mySQL_Url = "jdbc:mysql://localhost:3306/mobileStoreManagement";
         String mySQL_User = "root";
-        String mySQL_Password = "Apshuammu1222@";
+        String mySQL_Password = "******";
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(mySQL_Url,mySQL_User,mySQL_Password);
